@@ -7,19 +7,23 @@ const Navbar = () => {
     return (
         <>
           <Nav>
-              <NavLink to ="start" className="navbar-title">
-                  <h2 style={{color:'white'}}>Kartik Sachdeva</h2>
+              <NavLink to ="/" className="navbar-title">
+              Kartik Sachdeva
               </NavLink>
               <Bars />
-              <NavMenu>
-                <NavLink to="Project" activeStyle spy={true} smooth={true} >
+              <NavMenu>      
+              <NavLink to="About" spy={true} smooth={true} offset={-200} activeClass="active" >
+                    About
+                </NavLink> 
+                <NavLink to="Experience" spy={true} smooth={true} offset={-100} activeClass="active">
+                    Experience
+                </NavLink>             
+                <NavLink to="Project" spy={true} smooth={true} offset={-100} activeClass="active" >
                     Projects
                 </NavLink>
-                <NavLink to="Experience" activeStyle >
-                    Experience
-                </NavLink>
-                <NavLink to="Skills" activeStyle >
-                    SKills
+
+                <NavLink to="Skills" spy={true} smooth={true} offset={-100} activeClass="active">
+                    Skills
                 </NavLink>
 
               </NavMenu>

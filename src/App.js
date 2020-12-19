@@ -1,31 +1,28 @@
 import React from "react";
-import Projects from "./pages/Project";
 import useHover from "./components/Hooks/useHover";
 // import Header from './Header';
 import { BrowserRouter as  Router } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
+import MainPage from './pages/MainPage';
 
 function App() {
   const [hi, see] = useHover();
 
   return (
-    <div >
+    <>
       <div ref={hi} id="start">
         {see ? (
           <Router>
-           <Navbar />
+           <MainPage />
            </Router>
         ) : (
-          <div className="main-page">
+          <div className="start-page">
           <h1>Hi...</h1>
+          <h2>My Name is Kartik Sachdeva</h2>
+          <h3>Welcome to my Profile</h3>
           </div>
         )}
       </div>
-      <div id="blank"> </div>
-      <div id="Project" className="proj">
-        <Projects />{" "}
-      </div>
-    </div>
+    </>
   );
 }
 

@@ -5,11 +5,14 @@ import  { Link }   from 'react-scroll'
 
 export const Nav = styled.nav`
 background : transparent;
-height : 80px;
+height : 100px;
 display: flex;
+align-items: center
 justify-content: space-between;
-padding : 0.5rem calc((100vw - 1000px) /2);
+padding : 0.5rem calc((100vw - 1100px) /2);
 z-index: 10;
+position: fixed;
+top : 0;
 
 `
 export const NavLink = styled(Link)`
@@ -18,33 +21,36 @@ display: flex;
 align-items: center;
 text-decoration: none;
 font-size: 32px;
-padding: 0 1rem;
+padding: 0 2rem;
 height: 100%;
 cursor: pointer;
 &.active {
-    color: #888;
+    color: #90EE90;
+
+}
+&.hover{
+    color: pink;
 }
 `
 export const Bars = styled(FaBars)`
 display: none;
-color:#fff;
 
 @media screen and (max-width: 768px){
     display: block;
     position: absolute;
-    top:20px;
-    right:5px;
+    top: 20px;
+    margin-right:5px;
     trasform: translate(-100%,75%);
     font-size: 32px;
     cursor: pointer;
+    color: #fff;
 
 }
 `
 
 export const NavMenu = styled.div`
 display: flex;
-alignm-items: center;
-margin-right: center;
+alignm-items: right;
 
 @media screen and (max-width: 768px){
     display:none;

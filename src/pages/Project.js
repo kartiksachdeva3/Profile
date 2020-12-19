@@ -20,6 +20,7 @@ function Projectsdia({ project }) {
 export default function Projects() {
   return (
     <>
+      <h2>Projects</h2>
       <Carousel className="carsousel-s" >
           <Projectsdia project={ProjData.Projects[0]} />
           <Projectsdia project={ProjData.Projects[1]} />
