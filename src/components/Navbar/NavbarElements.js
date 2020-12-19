@@ -4,10 +4,11 @@ import {FaBars} from 'react-icons/fa'
 import  { Link }   from 'react-scroll'
 
 export const Nav = styled.nav`
-background : transparent;
+background : #181818;
 height : 100px;
 display: flex;
-align-items: center
+width:100%;
+align-items: center;
 justify-content: space-between;
 padding : 0.5rem calc((100vw - 1100px) /2);
 z-index: 10;
@@ -38,47 +39,42 @@ display: none;
 @media screen and (max-width: 768px){
     display: block;
     position: absolute;
-    top: 20px;
-    margin-right:5px;
-    trasform: translate(-100%,75%);
+    top: 30px;
+    right:5px;
+    trasform: translate(-100%,60%);
     font-size: 32px;
     cursor: pointer;
     color: #fff;
+    cursor: pointer;
+&.active{
+
+}
 
 }
 `
 
 export const NavMenu = styled.div`
 display: flex;
-alignm-items: right;
+align-items: right;
 
 @media screen and (max-width: 768px){
-    display:none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height:250px;
+    position:absolute;
+    top:100px;
+    left:-100%;
+    opacity:1;
+    transition: all 0.5s ease;
+    &.active{
+        background: #181818;
+        left:0;
+        opacity:1;
+        transition: all 0.5s ease;
+        z-index:1;
 
-}
-`
-export const NavBtn = styled.nav`
-display: flex;
-align-items: center;
-margin-right : 24px;
-
-@media screen and (max-width: 768px){
-    display: none;
-}
-`
-export const NavBtnLink = styled(Link)`
-border-radius:4px;
-background: transparent;
-padding: 10px 22px;
-color: #fff;
-border: none;
-outline: none;
-cursor: pointer;
-transition: all 0.2s ease-in-out;
-text-decoration: none;
-&.hover {
-    transition: all 0.2s ease-in-out;
-    background : #ffff;
-    color: black;
-}
+        }
+    }
 `

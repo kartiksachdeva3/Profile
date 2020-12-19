@@ -4,6 +4,7 @@ import About from './About'
 import Projects from './Project'
 import Experience from './Experience'
 import './MainPage.css'
+import Skills from './Skills'
 function MainPage() {
   return (
     <>
@@ -11,6 +12,7 @@ function MainPage() {
       <div id="About" className="about-style"> <About /></div>
       <div id="Experience" className="experience-style"><Experience /> </div>
       <div id="Project" className="project-style"><Projects /></div>
+      <div id="Skills" className="skill-style"><Skills /> </div>
 
     </>
   )
