@@ -1,11 +1,13 @@
 .about-style {
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
     color: white;
     margin-top: 300px;
     margin-bottom: 300px;
     background-color: transparent;
+    padding: 100px 100px;
+    white-space: pre-line;
   }
 
   .project-style{

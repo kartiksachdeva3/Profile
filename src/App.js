@@ -16,8 +16,7 @@ function App() {
            </Router>
         ) : (
           <div className="start-page">
-          <h1>Hi...</h1>
-          <h2>My Name is Kartik Sachdeva</h2>
+          <h1>Hi</h1>
           <h3>Welcome to my Profile</h3>
           </div>
         )}
