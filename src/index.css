@@ -23,9 +23,15 @@ code {
 }
 
 .start-page {
+  display:block;
+  width: 500px;
+  height:200px;
   font-size: 40px;
   color: white;
   padding: 100px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
   background-color: transparent;
   align-items: center;
   text-align: center;
@@ -37,7 +43,6 @@ code {
   align-content: center;
   background-blend-mode: rgba(8, 8, 8, 0.067);
   opacity: 1;
-  margin: 0 1rem;
   font-size: 20px;
   justify-content: center;
 }
@@ -48,6 +53,8 @@ code {
   position : relative;
 text-align: center;
 justify-content: center;
+margin-top: 100px;
+padding : 50px 50px;
 }
 .carousel .slide .legend{
   background: transparent;

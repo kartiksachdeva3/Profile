@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Nav , NavLink, Bars , NavMenu } from './NavbarElements'
+import { Nav , NavLink, Bars , NavMenu, Times } from './NavbarElements'
 import './Navbar.css'
 
 
@@ -13,10 +13,12 @@ class Navbar extends Component{
     return (
         <>
           <Nav>
-              <NavLink to ="/" className="navbar-title">
+              <NavLink to ="startpage" className="navbar-title">
               Kartik Sachdeva
               </NavLink>
-              <Bars onClick={this.handleclick}/>
+              <div onClick={this.handleclick}>
+                  {this.state.clicked ? <Times /> : <Bars /> }
+              </div>
               <NavMenu className={this.state.clicked ? "NavMenu active" : "NavMenu" }>      
               <NavLink to="About" spy={true} smooth={true} offset={-200} activeClass="active" onClick={this.handleclick} >
                     About

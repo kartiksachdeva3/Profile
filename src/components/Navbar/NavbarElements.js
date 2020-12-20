@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 // import { NavLink as Link } from 'react-router-dom'
-import {FaBars} from 'react-icons/fa'
+import {FaBars, FaTimes} from 'react-icons/fa'
 import  { Link }   from 'react-scroll'
 
 export const Nav = styled.nav`
@@ -46,13 +46,27 @@ display: none;
     cursor: pointer;
     color: #fff;
     cursor: pointer;
-&.active{
-
-}
 
 }
 `
 
+
+export const Times = styled(FaTimes)`
+display: none;
+
+@media screen and (max-width: 768px){
+    display: block;
+    position: absolute;
+    top: 30px;
+    right:5px;
+    trasform: translate(-100%,60%);
+    font-size: 32px;
+    cursor: pointer;
+    color: #fff;
+    cursor: pointer;
+
+}
+`
 export const NavMenu = styled.div`
 display: flex;
 align-items: right;
