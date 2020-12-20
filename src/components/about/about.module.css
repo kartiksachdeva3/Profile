@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top:100px;
+  margin-bottom: 100px;
+  padding: 0.5rem calc((100vw - 1000px)/2);
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    white-space: pre-line;
+  @media screen (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    white-space: pre-line;
+    
+  }
+  }

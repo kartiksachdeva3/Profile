@@ -2,7 +2,8 @@ import React from "react";
 import useHover from "./components/Hooks/useHover";
 // import Header from './Header';
 import { BrowserRouter as  Router } from "react-router-dom";
-import MainPage from './pages/MainPage';
+import MainPage from './MainPage';
+import './App.css'
 
 function App() {
   const [hi, see] = useHover();

@@ -1,0 +1,31 @@
+
+  .container{
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size:40px;
+    
+    }
+
+    .projcards{
+      height:auto;
+      text-align: center;
+      align-content: center;
+      background-blend-mode: rgba(8, 8, 8, 0.067);
+      opacity: 1;
+      font-size: 20px;
+      justify-content: center;
+    }
+    .carsousels{
+      display: block;
+      align-items: center ;
+      background-color: transparent;
+      position : relative;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding : 50px 50px;
+    }

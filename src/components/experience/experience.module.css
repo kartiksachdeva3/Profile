@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.experience {
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: transparent;
+  
+  }
