@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { Nav , NavLink, Bars , NavMenu, Times } from './NavbarElements'
 import './Navbar.css'
+import logo from '../../static/logo.png'
 
 
 class Navbar extends Component{
@@ -14,7 +15,7 @@ class Navbar extends Component{
         <>
           <Nav>
               <NavLink to ="startpage" className="navbar-title">
-              Kartik Sachdeva
+              <img alt="logo" src={logo} style={{width:"60px", height:"60px"}}/>
               </NavLink>
               <div onClick={this.handleclick}>
                   {this.state.clicked ? <Times /> : <Bars /> }

@@ -21,16 +21,13 @@ color : #fff;
 display: flex;
 align-items: center;
 text-decoration: none;
-font-size: 32px;
+font-size: 25px;
 padding: 0 2rem;
 height: 100%;
 cursor: pointer;
 &.active {
     color: #90EE90;
 
-}
-&.hover{
-    color: pink;
 }
 `
 export const Bars = styled(FaBars)`

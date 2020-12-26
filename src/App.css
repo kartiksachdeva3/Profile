@@ -6,11 +6,13 @@ html {
     background: transparent; /* make scrollbar transparent */
   
   }
+  @font-face{
+    font-family: fonts;
+    src:url('./static/KronaOne-Regular.ttf')
+  }
     body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+    font-family: fonts;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #181818;
@@ -18,15 +20,15 @@ html {
   }
   
   code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
+    font-family: fonts;
   }
   
   .start-page {
     display:flex;
-    width: 500px;
-    height:200px;
-    font-size: 40px;
+    flex-direction: column;
+    flex-flow: column wrap;
+    margin: 30vh 30vw;
+    font-size: 50px;
     color: white;
     background-color: transparent;
     align-items: center;

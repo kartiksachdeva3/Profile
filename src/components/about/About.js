@@ -6,9 +6,13 @@ import aboutstyle from  './about.module.css'
 function About() {
 
     return (
+        
         <div className={aboutstyle.container}>
-            <div className={aboutstyle.about}> <img alt="dp" src={photo} style={{ maxWidth: "200px", maxHeight: "300px", borderRadius: "20px" }} /></div>
+            <div className={aboutstyle.about}> <img alt="dp" src={photo} style={{ maxWidth: "300px", maxHeight: "px", borderRadius: "20px" }} /></div>
+            <div className={aboutstyle.textinfo}>
+            <div className={`${aboutstyle.about} ${aboutstyle.abouthead}`} >{aboutDetails.hi}</div>
             <div className={aboutstyle.about}>{aboutDetails.about}</div>
+            </div>
         </div>
 
     )

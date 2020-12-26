@@ -10,7 +10,7 @@ import style from './projects.module.css'
 function Projectsdia({ project, img}) {
   return (
     <Card className={style.projcard} >
-    <Card.Img variant="Top" src={img} style={{width: "400px",height:"300px"}}/>
+    <Card.Img variant="Top" src={img} style={{maxWidth: "400px",maxHeight:"300px"}}/>
       <Card.Body>
         <Card.Title>{project.name}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">

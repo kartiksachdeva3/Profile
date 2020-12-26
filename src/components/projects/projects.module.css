@@ -6,8 +6,6 @@
     margin-bottom: 300px;
     margin-left: 200px;
     margin-right: 200px;
-    font-size:40px;
-    
     }
 
     .projcards{
@@ -16,7 +14,7 @@
       align-content: center;
       background-blend-mode: rgba(8, 8, 8, 0.067);
       opacity: 1;
-      font-size: 20px;
+      font-size: 25px;
       justify-content: center;
     }
     .carsousels{
