@@ -8,8 +8,17 @@ html {
   }
   @font-face{
     font-family: fonts;
-    src:url('./static/KronaOne-Regular.ttf')
-  }
+  font-style: normal;
+  font-weight: 400;
+  src: url('./static/fonts/source-sans-pro-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./static/fonts/source-sans-pro-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./static/fonts/source-sans-pro-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./static/fonts/source-sans-pro-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./static/fonts/source-sans-pro-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./static/fonts/source-sans-pro-v14-latin-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+}
+
     body {
     margin: 0;
     font-family: fonts;

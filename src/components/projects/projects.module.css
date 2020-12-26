@@ -2,8 +2,7 @@
   .container{
     text-align: center;
     color: white;
-    margin-top: 300px;
-    margin-bottom: 300px;
+    margin: 50px 75px;
     }
 
     .projcards{
@@ -14,14 +13,19 @@
       opacity: 1;
       font-size: 25px;
       justify-content: center;
+      margin: 10px 10px;
+     
+    }
+    .description{
+      white-space: pre-line;
     }
     .carsousels{
       display: block;
       align-items: center ;
       background-color: transparent;
       position : relative;
-    text-align: center;
-    justify-content: center;
-    margin-top: 100px;
-    padding : 50px 50px;
+      text-align: center;
+      justify-content: center;
+      margin-top: 100px;
+      padding : 50px 50px;
     }
