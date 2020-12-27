@@ -14,7 +14,6 @@
       opacity: 1;
       font-size: 25px;
       justify-content: center;
-      margin: 10px 10px;
      
     }
     .carsousels{
@@ -24,8 +23,7 @@
       position : relative;
       text-align: center;
       justify-content: center;
-      margin-top: 100px;
-      padding : 50px 50px;
+      margin:50px 0;
     }
     .title{
       font-size: 25px;
@@ -42,4 +40,9 @@
     .textinfo{
       font-size: 17px;
       white-space: pre-line;
+    }
+    @media screen and (max-width: 768px){
+      .container{
+        margin:0 calc((100vw - 310px)/2);
+      }
     }

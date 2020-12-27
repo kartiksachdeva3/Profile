@@ -9,7 +9,7 @@ function Structure({exp}){
      Aos.init({duration : 1000})
     }, [])
     return (
-            <Card data-aos="fade-right" className={style.card}>
+            <Card data-aos="fade-left" className={style.card}>
     <Card.Body>
         <Card.Title className={style.title}>{exp.profile}</Card.Title>
         <Card.Subtitle className={style.org}>{exp.organisation}</Card.Subtitle>

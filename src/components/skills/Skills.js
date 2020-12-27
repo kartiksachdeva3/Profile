@@ -46,7 +46,7 @@ const Skills = () => {
         Aos.init({duration : 1500})
        }, [])
     return (
-        <div data-aos="fade-right" className={style.container}>
+        <div data-aos="fade-left" className={style.container}>
             <Carousel className={style.carsouselskills} infiniteLoop={true} autoPlay={true} showIndicators={false} showStatus={false} interval={'2800'} stopOnHover={false} emulateTouch={true} useKeyboardArrows={true} swipeable={true}>
                 <CardsLay photo1={python} title1={"Python"} photo2={cpp} title2={"C/C++"} photo3={js} title3={"JavaScript"} />
                 <CardsLay photo1={pt} title1={"Penetration Testing"} photo2={network} title2={"Networking"} photo3={cloud} title3={"Cloud Computing"} />
