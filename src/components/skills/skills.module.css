@@ -1,5 +1,11 @@
   
-
+ .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  margin: 75px 75px;
+  }
       .cardsdeck{
         display: flex;
         justify-content: space-evenly;
@@ -8,7 +14,6 @@
       }
       .carsouselskills{
         display:block;
-        height: 400px;
         align-items: center;
         background-color: transparent;
         text-align: center;
@@ -17,13 +22,7 @@
         
         
   
-    .container{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color:white;
-      margin: 75px 75px;
-      }
+   
       @media screen and (max-width: 768px){
         .container{
           margin: 0 0;

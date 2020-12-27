@@ -42,7 +42,7 @@ function CardsLay({photo1 , title1, photo2, title2, photo3, title3}) {
 const Skills = () => {
     return (
         <div className={style.container}>
-            <Carousel className={style.carsouselskills} infiniteLoop={true} autoPlay={true} showIndicators={false} showStatus={false} interval={'3000'} stopOnHover={true} emulateTouch={true} useKeyboardArrows={true} swipeable={true}>
+            <Carousel className={style.carsouselskills} infiniteLoop={true} autoPlay={true} showIndicators={false} showStatus={false} interval={'2800'} stopOnHover={false} emulateTouch={true} useKeyboardArrows={true} swipeable={true}>
                 <CardsLay photo1={python} title1={"Python"} photo2={cpp} title2={"C/C++"} photo3={js} title3={"JavaScript"} />
                 <CardsLay photo1={pt} title1={"Penetration Testing"} photo2={network} title2={"Networking"} photo3={cloud} title3={"Cloud Computing"} />
                 <CardsLay photo1={react} title1={"React"} photo2={node} title2={"NodeJs"} photo3={mongo} title3={"MongoDB"} />

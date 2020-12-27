@@ -1,17 +1,43 @@
 .container{
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  align-items: center;
+  flex-direction: column;
 }
-.experience {
+.deck{
+  display: flex;
+  flex-direction: row;
+
+}
+.card{
     display: flex;
-    font-size: 40px;
+    font-size: 15px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     color: white;
-    background-color: transparent;
+    background-color: #5555;
+    padding:15px 15px;
+    margin: 5px 5px;
+    border-radius: 3px;
   
+  }
+  .title{
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 100;
+  }
+  .org{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 50;
+    color: #90ee90;
+    white-space: pre-line;
+  }
+  .textinfo{
+    font-size: 17px;
+    white-space: pre-line;
+  }
+  @media screen and (max-width: 768px){
+    .deck{
+      flex-direction: column;
+    }
   }

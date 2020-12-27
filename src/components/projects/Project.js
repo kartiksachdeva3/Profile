@@ -13,11 +13,11 @@ function Projectsdia({ project, img , photostyle}) {
     <Card className={style.projcard} >
     <Card.Img variant="Top" src={img} style={photostyle}/>
       <Card.Body>
-        <Card.Title>{project.name}</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">
-          {project.Discipline}
+        <Card.Title className={style.title}>{project.name}</Card.Title>
+        <Card.Subtitle className={style.org}>
+          {project.discipline}
         </Card.Subtitle>
-        <Card.Text className={style.description}>{project.Description}</Card.Text>
+        <Card.Text className={style.textinfo}>{project.description}</Card.Text>
       </Card.Body>
     </Card>
   );

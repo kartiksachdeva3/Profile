@@ -25,7 +25,7 @@ class Navbar extends Component{
                     About
                 </NavLink> 
                 <NavLink to="Experience" spy={true} smooth={true} offset={-200} activeClass="active" onClick={this.handleclick}>
-                    Experience
+                    Work
                 </NavLink>             
                 <NavLink to="Project" spy={true} smooth={true} offset={-200} activeClass="active" onClick={this.handleclick} >
                     Projects

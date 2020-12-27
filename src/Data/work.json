@@ -1,0 +1,16 @@
+{
+    "work" : [
+        {
+            "profile" : "Penetration Tester Intern",
+            "organisation" : "Cyber Kings India",
+            "duration" : "April-2020 to Sept-2020",
+            "description" : "Assessed with more than 10 Web Applications Vulnerability\nAccelerated 10 plus Bug Hunting projects\nInformed Best Security Practices to more than 5 organizations"
+        },
+        {
+            "profile": "Associate Software Developer Lead",
+            "organisation" : "nQubator Labs: IoT and Embedded Technology\nDataRitz Technologies", 
+            "duration" : "June-2019- Present",
+            "description":"Researching on 2 IoT devices based sensors\nGuided Team of 4 Software Developers\nAutomated Sensors, Integrated Cloud, Software Development"
+        }
+    ]
+}

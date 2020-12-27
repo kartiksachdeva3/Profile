@@ -9,7 +9,7 @@ html {
   @font-face{
     font-family: fonts;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   src: url('./static/fonts/source-sans-pro-v14-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('./static/fonts/source-sans-pro-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */

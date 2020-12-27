@@ -16,9 +16,6 @@
       margin: 10px 10px;
      
     }
-    .description{
-      white-space: pre-line;
-    }
     .carsousels{
       display: block;
       align-items: center ;
@@ -28,4 +25,20 @@
       justify-content: center;
       margin-top: 100px;
       padding : 50px 50px;
+    }
+    .title{
+      font-size: 25px;
+      font-style: oblique;
+      font-weight: 100;
+    }
+    .org{
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 50;
+      color: #90ee90;
+      white-space: pre-line;
+    }
+    .textinfo{
+      font-size: 17px;
+      white-space: pre-line;
     }

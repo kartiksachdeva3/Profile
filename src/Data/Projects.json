@@ -2,18 +2,18 @@
 "Projects" : [
     {
     "name" :"Smart Irrigation System",
-    "Discipline" :"Internet of Things",
-    "Description" : "INTEGRATED INTELLIGENT AGRICULTURE SYSTEM\nInternet of Things\nTIDE 2.0 Winner, MeitY, Govt. of India\nRecently recognized and appreciated by ICAR, Govt. of India\nLead the team of 4 software developers\nDeveloped Smart sensor for capturing multi-level soil moisture\nAugmented it with cloud Developed Web and mobile application for interface"
+    "discipline" :"Internet of Things",
+    "description" : "INTEGRATED INTELLIGENT AGRICULTURE SYSTEM\nInternet of Things\nTIDE 2.0 Winner, MeitY, Govt. of India\nRecently recognized and appreciated by ICAR, Govt. of India\nLead the team of 4 software developers\nDeveloped Smart sensor for capturing multi-level soil moisture\nAugmented it with cloud Developed Web and mobile application for interface"
     }, 
     {
     "name" : "Customer Retention Prediction Model",
-    "Discipline" : "Data Science",
-    "Description" : " Applied:- Logisitic Regression\nTrained:- XG-Boosting\nGot best prediction accuracy with XG-Boost"
+    "discipline" : "Data Science",
+    "description" : " Applied:- Logisitic Regression\nTrained:- XG-Boosting\nGot best prediction accuracy with XG-Boost"
     },
     {
     "name" : "Digital Fuel Gauge",
-    "Discipline" : "Digital Logic/Embedded Technology",
-    "Description" : "Led the team of 3\nDesigned a digital fuel gauge using Arduino-Uno to improve fuel gauge precision"
+    "discipline" : "Digital Logic/Embedded Technology",
+    "description" : "Led the team of 3\nDesigned a digital fuel gauge using Arduino-Uno to improve fuel gauge precision"
     
     }
 ]
