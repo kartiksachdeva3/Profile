@@ -5,6 +5,7 @@
   justify-content: center;
   color:white;
   margin: 75px 75px;
+  overflow: hidden;
   }
       .cardsdeck{
         display: flex;
