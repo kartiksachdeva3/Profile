@@ -2,7 +2,7 @@
   .container{
     text-align: center;
     color: white;
-    margin: 0 75px;
+    margin: 50px 75px;
     overflow: hidden;
     }
 
@@ -14,16 +14,15 @@
       opacity: 1;
       font-size: 25px;
       justify-content: center;
+      padding-bottom: 10px;
      
     }
     .carsousels{
       display: block;
       align-items: center ;
       background-color: transparent;
-      position : relative;
       text-align: center;
       justify-content: center;
-      margin:50px 0;
     }
     .title{
       font-size: 25px;
@@ -43,6 +42,6 @@
     }
     @media screen and (max-width: 768px){
       .container{
-        margin:0 calc((100vw - 310px)/2);
+        margin: 20px calc((100vw - 310px)/2);
       }
     }
