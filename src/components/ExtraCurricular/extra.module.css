@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    text-align: center;
+    color: white;
+    margin: 50px 75px;
+    overflow: hidden;
+    align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   
+
+    }
+.carouselcontainer{
+    width: 600px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+
+}
+    .carsousels{
+      align-items: center ;
+      background-color: transparent;
+      text-align: center;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 768px){
+      .container{
+        margin: 20px calc((100vw - 310px)/2);
+      }
+    }
