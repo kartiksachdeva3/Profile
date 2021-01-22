@@ -2,7 +2,7 @@
     display: flex;
     text-align: center;
     color: white;
-    margin: 50px 75px;
+    margin: 50px 50px;
     overflow: hidden;
     align-items: center;
    flex-direction: column;
@@ -11,8 +11,7 @@
 
     }
 .carouselcontainer{
-    width: 600px;
-    display: block;
+    width:640px;
     align-items: center;
     justify-content: center;
 
@@ -24,9 +23,13 @@
       text-align: center;
       justify-content: center;
     }
+    
+    .reactplayer {
+    width: 200px;
+    }
 
     @media screen and (max-width: 768px){
       .container{
-        margin: 20px calc((100vw - 310px)/2);
+        margin: 30px calc((100vw - 350px)/2);
       }
     }

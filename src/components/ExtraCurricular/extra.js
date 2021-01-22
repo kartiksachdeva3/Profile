@@ -18,12 +18,12 @@ const Extra = () => {
         <br></br>
         <div className={style.carouselcontainer} >
           
-            <Carousel className={style.carsousels} infiniteLoop={true} >
-                <ReactPlayer url='https://www.youtube.com/watch?v=CNqphnMwDX8' />
+            <Carousel className={style.carsousels} infiniteLoop={true} showStatus={false} interval={'2800'} stopOnHover={false} emulateTouch={true} useKeyboardArrows={true} swipeable={true}>
+                <ReactPlayer className={style.reactplayer} url='https://www.youtube.com/watch?v=CNqphnMwDX8' />
             
-                <ReactPlayer url='https://www.youtube.com/watch?v=1KGI0vuTc3Q' /> 
+                <ReactPlayer className={style.reactplayer} url='https://www.youtube.com/watch?v=1KGI0vuTc3Q' /> 
             
-                <ReactPlayer url='https://www.youtube.com/watch?v=YdzRrNFJQaI' /> 
+                <ReactPlayer className={style.reactplayer} url='https://www.youtube.com/watch?v=YdzRrNFJQaI' /> 
 
             </Carousel>
         </div>
