@@ -29,6 +29,14 @@
     display: flex;
     color: #90EE90;
   }
+  .icons{
+    display: flex;
+  }
+  .iconitems{
+    color: #90EE90;
+    padding: 0 10px;
+    font-size: 40px ;
+  }
   @media screen and  (max-width: 768px) {
     .container{
     display: flex;
