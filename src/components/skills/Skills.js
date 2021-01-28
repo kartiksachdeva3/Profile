@@ -1,19 +1,19 @@
 import React, {useEffect} from 'react'
 import {Carousel } from 'react-responsive-carousel'
 import {  Card, CardDeck } from 'react-bootstrap';
-import python from '../../static/python.svg';
+import python from '../../static/images/python.svg';
 import "../styles/carousel.css";
-import cpp from '../../static/c.svg'
-import react from '../../static/react.svg'
-import js from '../../static/javascript.svg'
-import pt from '../../static/bug.svg'
-import network from '../../static/networking.svg'
-import cloud from '../../static/cloud.svg'
-import iot from '../../static/iot.svg'
-import mongo from '../../static/mongo.svg'
-import dsa from "../../static/algorithm.svg"
-import ml from "../../static/brain.svg"
-import node from '../../static/nodejs.svg'
+import cpp from '../../static/images/c.svg'
+import react from '../../static/images/react.svg'
+import js from '../../static/images/javascript.svg'
+import pt from '../../static/images/bug.svg'
+import network from '../../static/images/networking.svg'
+import cloud from '../../static/images/cloud.svg'
+import iot from '../../static/images/iot.svg'
+import mongo from '../../static/images/mongo.svg'
+import dsa from "../../static/images/algorithm.svg"
+import ml from "../../static/images/brain.svg"
+import node from '../../static/images/nodejs.svg'
 import style from './skills.module.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'

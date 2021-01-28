@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutDetails from '../../Data/About.json'
-import photo from '../../static/photo.jpeg'
+import photo from '../../static/images/photo.jpeg'
 import aboutstyle from  './about.module.css'
 import {FaGithub,FaInstagram,FaLinkedin} from 'react-icons/fa'
 import {GoFile} from 'react-icons/go'

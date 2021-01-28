@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { Nav , NavLink, Bars , NavMenu, Times } from './NavbarElements'
 import './Navbar.css'
-import logo from '../../static/logo.png'
+import logo from '../../static/images/logo.png'
 
 
 class Navbar extends Component{

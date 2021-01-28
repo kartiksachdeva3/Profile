@@ -3,9 +3,9 @@ import ProjData from "../../Data/Projects.json";
 import { Carousel } from "react-responsive-carousel";
 import "../styles/carousel.css";
 import { Card } from "react-bootstrap";
-import project1 from '../../static/project1.jpeg';
-import project3 from '../../static/project3_1.jpg';
-import project2 from '../../static/project2.jpeg';
+import project1 from '../../static/images/project1.jpeg';
+import project3 from '../../static/images/project3_1.jpg';
+import project2 from '../../static/images/project2.jpeg';
 import style from './projects.module.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
