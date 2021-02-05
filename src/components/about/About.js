@@ -18,7 +18,7 @@ function About() {
                     <a href="https://github.com/kartiksachdeva3" rel="noopener noreferrer"><FaGithub className={aboutstyle.iconitems}/></a>
                     <a href="https://www.linkedin.com/in/kartiksachdeva3" rel="noopener noreferrer"><FaLinkedin className={aboutstyle.iconitems}/></a>
                     <a href="https://www.instagram.com/kartik._.sachdeva/" rel="noopener noreferrer"><FaInstagram className={aboutstyle.iconitems}/></a>
-                    <a href="https://drive.google.com/file/d/1SqofYKdhUo0BzHtK-kAI9i0GglM9fBTt/view?usp=sharing" download><GoFile className={aboutstyle.iconitems} /></a>
+                    <a href="https://drive.google.com/file/d/16x2qO26O0km2kcbrMoWtoxtpIy4tIPzW/view?usp=sharing" download><GoFile className={aboutstyle.iconitems} /></a>
                 </div>
                 
         </div>    

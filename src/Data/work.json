@@ -1,6 +1,12 @@
 {
     "work" : [
         {
+            "profile" : "Cyber Security Intern",
+            "organisation" : "Gurugram Police Cyber Security Summer\n Internship Program",
+            "duration" : "June-2021 to July-2021",
+            "description" : "Learned from Real Cyber-Crime Case studies\nAccelerated blue team projects"
+        },
+        {
             "profile" : "Penetration Tester Intern",
             "organisation" : "Cyber Kings India",
             "duration" : "April-2020 to Sept-2020",
