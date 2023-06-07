@@ -1,0 +1,57 @@
+/* Certifications.css */
+
+.certifications-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #111;
+}
+
+.section-title {
+    color: #fff;
+   
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.certifications-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.certification-item {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.certification-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.certification-title {
+    color: #0f0;
+   
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.certification-organization {
+    color: #fff;
+   
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.certification-description {
+    color: #fff;
+   
+    font-size: 14px;
+    margin-bottom: 5px;
+}
