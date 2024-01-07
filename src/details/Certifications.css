@@ -1,14 +1,16 @@
 /* Certifications.css */
 
 .certifications-container {
-    width: 100%;
-    padding: 20px;
+    margin: 50px 10vb;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #111;
+    color: #fff;
+    width: 80vb;
 }
 
 .section-title {
     color: #fff;
-   
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -17,7 +19,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 2%;
 }
 
 .certification-item {

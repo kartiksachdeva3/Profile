@@ -13,7 +13,7 @@ const [showAnimation, setShowAnimation] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAnimation(false);
-    }, 1500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);

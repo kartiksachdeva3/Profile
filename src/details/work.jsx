@@ -39,7 +39,7 @@ const Work = () => {
     },
      {
       id: 3,
-      title: 'enetration Tester Intern',
+      title: 'Penetration Tester Intern',
       company: 'CyberKings India',
       description: ['Assessed over 10 web application vulnerability projects for multiple clients, effectively identifying and mitigating security risks',],
       logo: ckiLogo,
