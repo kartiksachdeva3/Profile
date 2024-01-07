@@ -9,7 +9,7 @@ const About = () => {
       <div className="about-content">
         <img src={profile} alt="Profile" className="profile-picture" />
         <p className="about-description">
-          Greetings, I'm Kartik Sachdeva, a dynamic professional currently serving as a Security Engineer at Cisco, specializing in automation.
+          Greetings, I'm Kartik Sachdeva, a dynamic professional currently working as a Security Engineer at Cisco, specializing in automation.
         </p>
               <p className="about-description">
      
