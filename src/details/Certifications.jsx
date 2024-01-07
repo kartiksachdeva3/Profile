@@ -11,7 +11,7 @@ const Certifications = () => {
     {
       id: 1,
       title: 'RedHat Certified System Administrator',
-      organization: 'Organization A',
+      organization: 'RedHat',
       description: '',
       imageUrl: rhcsa
     },

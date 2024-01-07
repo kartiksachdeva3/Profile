@@ -9,26 +9,24 @@ const About = () => {
       <div className="about-content">
         <img src={profile} alt="Profile" className="profile-picture" />
         <p className="about-description">
-          I am Kartik Sachdeva. I am an Automation Engineer at Cisco.
-       
+          Greetings, I'm Kartik Sachdeva, a dynamic professional currently serving as a Security Engineer at Cisco, specializing in automation.
         </p>
               <p className="about-description">
      
-          I am an Information Security and Machine Learning enthusiast.
+         My passion lies at the intersection of Information Security and Machine Learning, where I thrive on tackling complex challenges.
         </p>
         <p className="about-description">
-          When I'm not Hacking, you can find me exploring new technologies, reading tech blogs, or enjoying outdoor activities. I believe in lifelong learning and continuously expanding my skill set to stay ahead in this ever-evolving field.
+          Beyond the realms of cybersecurity, I am an avid explorer of cutting-edge technologies, an enthusiastic reader of tech blogs, and a nature enthusiast who finds solace in outdoor activities.
         </p>
                 <p className="about-description">
-          I believe in lifelong learning and continuously expanding my skill set to stay ahead in this ever-evolving field.
+          In my pursuit of excellence, I embrace the philosophy of lifelong learning, consistently expanding my skill set to stay at the forefront of this ever-evolving field.
         </p>
         <p className="about-description">
           
-          Thank you for visiting my profile. 
-          Feel free to contact me on LinkedIn. Have a great Day! 
-        <a href="https://www.linkedin.com/in/kartiksachdeva3" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin className="linkedin-icon" /> </a>
+          Thank you for taking the time to explore my profile. Feel free to connect with me on LinkedIn. Wishing you a fantastic day ahead!
       </p>
+      <a href="https://www.linkedin.com/in/kartiksachdeva3" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="linkedin-icon" /> </a>
     
       </div>
     </div>

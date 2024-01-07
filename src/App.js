@@ -31,9 +31,8 @@ const [showAnimation, setShowAnimation] = useState(true);
              <div className="navbar">
               <a href="#about">About</a>
               <a href="#work">Work</a>
-              
-              <a href="#cert">Certifications</a>
               <a href="#skills">skills</a>
+              <a href="#cert">Certifications</a>
             </div>
             <div className="app-container">
               <div id="about">
@@ -42,12 +41,13 @@ const [showAnimation, setShowAnimation] = useState(true);
               <div id="work">
                 <Work />
               </div>
-              <div id="cert">
-                <Certifications />
-              </div>
               <div id="skills">
                 <Skills />
               </div>
+              <div id="cert">
+                <Certifications />
+              </div>
+     
             </div>
         {/* Rest of your app content */}
       </div>
